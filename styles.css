@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #2E0854;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+    height: 50px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+header nav ul li a:hover {
+    color: #6C757D
+}
+
+/* Hero Banner Section */
+.hero-banner {
+    background-image: url('assets/hero_banner_new.webp'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Optional: For aligning content inside the hero */
+    align-items: center; /* Optional: Vertically center content */
+    justify-content: center; /* Optional: Horizontally center content */
+}
+
+/* Styling for the text container */
+.hero-banner .content {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    padding: 20px; /* Adds space around the text */
+    border-radius: 10px; /* Rounds the corners of the background */
+    display: inline-block; /* Ensures the background adjusts to the text width */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow for better visibility */
+}
+
+/* Styling for the text itself */
+.hero-banner .content {
+    font-size: 2.5rem; /* Adjust the font size of the main heading */
+    color: #333; /* Dark text color for contrast */
+    margin: 0; /* Removes default margin */
+    text-align: center; /* Centers the heading */
+}
+
+.hero-banner .content {
+    font-size: 1.2rem; /* Adjust the font size of the paragraph */
+    color: #333; /* Dark text color for contrast */
+    text-align: center; /* Centers the paragraph */
+    margin: 10px 0 0; /* Adds spacing below the heading */
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    color: #2E0854;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contract-address {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contract-address code {
+    font-family: 'Courier New', Courier, monospace;
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contract-address button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background: #2E0854;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contract-address button:hover {
+    background: #0056b3;
+}
+
+#hero button {
+    padding: 10px 20px;
+    background: #2E0854;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+section {
+    padding: 40px 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+}
+
+.tokenomics-overview {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.tokenomics-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tokenomics-list li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.chart-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy-steps {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.buy-steps li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #2E0854;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buy-steps li strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #2E0854;
+}
+
+.buy-steps li a {
+    color: #2E0854;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buy-steps li a:hover {
+    text-decoration: underline;
+}
+
+/* Community Section Styling */
+.community-section {
+    background-color: #2E0854; /* Deep purple background */
+    padding: 40px 20px;
+    text-align: center;
+    color: #ffffff; /* White text color */
+    border-top: 5px solid #FFD700; /* Neon yellow border */
+}
+
+.community-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #FFD700; /* Neon yellow for the title */
+    text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.5);
+}
+
+.community-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between links */
+}
+
+.community-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff; /* White text for links */
+    background-color: #1C1C1C; /* Dark background for buttons */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.community-link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.community-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.4);
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
